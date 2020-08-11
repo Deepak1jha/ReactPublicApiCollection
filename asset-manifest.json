@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ReactPublicApiCollection/static/css/main.d9fa19ce.chunk.css",
+    "main.js": "/ReactPublicApiCollection/static/js/main.7ee45684.chunk.js",
+    "main.js.map": "/ReactPublicApiCollection/static/js/main.7ee45684.chunk.js.map",
+    "runtime-main.js": "/ReactPublicApiCollection/static/js/runtime-main.ed55f427.js",
+    "runtime-main.js.map": "/ReactPublicApiCollection/static/js/runtime-main.ed55f427.js.map",
+    "static/css/2.ba286aec.chunk.css": "/ReactPublicApiCollection/static/css/2.ba286aec.chunk.css",
+    "static/js/2.ed77b430.chunk.js": "/ReactPublicApiCollection/static/js/2.ed77b430.chunk.js",
+    "static/js/2.ed77b430.chunk.js.map": "/ReactPublicApiCollection/static/js/2.ed77b430.chunk.js.map",
+    "index.html": "/ReactPublicApiCollection/index.html",
+    "precache-manifest.74eceec519be2318a59c7a4d98e70077.js": "/ReactPublicApiCollection/precache-manifest.74eceec519be2318a59c7a4d98e70077.js",
+    "service-worker.js": "/ReactPublicApiCollection/service-worker.js",
+    "static/css/2.ba286aec.chunk.css.map": "/ReactPublicApiCollection/static/css/2.ba286aec.chunk.css.map",
+    "static/css/main.d9fa19ce.chunk.css.map": "/ReactPublicApiCollection/static/css/main.d9fa19ce.chunk.css.map",
+    "static/js/2.ed77b430.chunk.js.LICENSE.txt": "/ReactPublicApiCollection/static/js/2.ed77b430.chunk.js.LICENSE.txt",
+    "static/media/argon-dashboard-pro-react.css.map": "/ReactPublicApiCollection/static/media/argon-dashboard-pro-react.css.68670e73.map",
+    "static/media/all.min.css": "/ReactPublicApiCollection/static/media/fa-solid-900.fb493903.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed55f427.js",
+    "static/css/2.ba286aec.chunk.css",
+    "static/js/2.ed77b430.chunk.js",
+    "static/css/main.d9fa19ce.chunk.css",
+    "static/js/main.7ee45684.chunk.js"
+  ]
+}
