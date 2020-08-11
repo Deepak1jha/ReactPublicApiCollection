@@ -82,7 +82,7 @@ class ApiDetail extends React.Component {
                           <tr key={item.description}>
                             <th scope="row">
                               <div className="align-items-center media">
-                                <img className="avatar rounded-circle mr-3" alt="..."
+                                <img className=" rounded-circle mr-3" alt="..."
                                      src={this.setIcon()}/>
                                 <div className="media"><span className="name mb-0 text-sm">{item.API}</span>
                                 </div>

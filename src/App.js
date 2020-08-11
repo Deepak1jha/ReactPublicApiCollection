@@ -4,7 +4,6 @@ import axios from "axios";
 import Spin from "antd/lib/spin";
 import IconsUrl from "./data/icons/Icons";
 import GridList from "@material-ui/core/GridList";
-import {Col, Row} from "reactstrap";
 import CustomNavbar from "./components/navbar/Navbar";
 
 const {Content, Footer} = Layout;
@@ -43,22 +42,14 @@ const App = (props) => {
               <div key={index} className="col-md-3 mt-3">
                 <div className="card">
                   <div className="text-center card-body">
-                    <div className="clearfix"/>
                     <div className="author"><Avatar size={64} src={setIcon(value)}/>
                       <h5 className="card-title text-danger">{value}</h5></div>
-                    <button type="button" className="btn-icon btn btn-info btn-sm"><span
-                      className="btn-inner--icon mr-1"><i className="ni ni-fat-add"/></span><span
-                      className="btn-inner--text" onClick={() => {
+                    <button type="button" className="text-center btn-icon btn btn-info btn-sm"><span
+                      className="btn-inner--icon mr-1 text-center"><i className="ni ni-fat-add"/></span><span
+                      className="btn-inner--text text-center" onClick={() => {
                       props.history.push(`/${value}`)
-                    }}>Follow</span></button>
+                    }}>View</span></button>
                   </div>
-                  {/*<div className="center">*/}
-                  {/*  <button type="button" className="btn-icon btn btn-info btn-sm"><span*/}
-                  {/*    className="btn-inner--icon mr-1"><i className="ni ni-fat-add"/></span><span*/}
-                  {/*    className="btn-inner--text" onClick={() => {*/}
-                  {/*    props.history.push(`/${value}`)*/}
-                  {/*  }}>Follow</span></button>*/}
-                  {/*</div>*/}
                 </div>
               </div>
             )
