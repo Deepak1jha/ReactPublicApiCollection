@@ -43,10 +43,10 @@ const App = (props) => {
                 <div className="card">
                   <div className="text-center card-body">
                     <div className="author"><Avatar size={64} src={setIcon(value)}/>
-                      <h5 className="card-title text-danger">{value}</h5></div>
+                      <h5 style={{marginTop: "2%"}} className="card-title text-danger">{value}</h5></div>
                     <button type="button" className="text-center btn-icon btn btn-info btn-sm"><span
-                      className="btn-inner--icon mr-1 text-center"><i className="ni ni-fat-add"/></span><span
-                      className="btn-inner--text text-center" onClick={() => {
+                      className="btn-inner--icon mr-1 text-center d-flex justify-content-center"><i className="ni ni-fat-add"/></span><span
+                      className="btn-inner--text " onClick={() => {
                       props.history.push(`/${value}`)
                     }}>View</span></button>
                   </div>

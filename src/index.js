@@ -19,7 +19,6 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-
 ReactDOM.render(
   <BrowserRouter>
     <Switch>

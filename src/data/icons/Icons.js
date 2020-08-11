@@ -1,7 +1,7 @@
 const IconsUrl = [
   {name: "Animals", url: "https://img.icons8.com/color/48/000000/giraffe.png"},
   {name: "Anime", url: "https://img.icons8.com/color/48/000000/sailor-moon.png"},
-  {name: "Anti-Malware", url: "https://img.icons8.com/color/48/000000/giraffe.png"},
+  {name: "Anti-Malware", url: "https://img.icons8.com/dusk/128/000000/avast.png"},
   {name: "Art & Design", url: "https://img.icons8.com/fluent/48/000000/art-prices.png"},
   {name: "Books", url: "https://img.icons8.com/fluent/48/000000/books.png"},
   {name: "Business", url: "https://img.icons8.com/color/48/000000/teamwork.png"},
